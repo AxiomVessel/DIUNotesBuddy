@@ -1039,12 +1039,12 @@ body::before {
 
 .support-grid {
     display: grid;
-    grid-template-columns: 1.75fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 1.25fr;
+    gap: 3rem;
     margin-top: 3rem;
-    align-items: start;
+    align-items: stretch;
     width: 100%;
-    max-width: 1120px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1065,9 +1065,8 @@ body::before {
 }
 
 .support-donation-copy-card {
-    max-width: 420px;
-    justify-self: start;
-    padding: 1.5rem;
+    padding: 3rem 2.5rem;
+    justify-content: center;
 }
 
 .support-donation-copy-card h3 {
